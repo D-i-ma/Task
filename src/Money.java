@@ -6,7 +6,7 @@ public class Money {
             throw new InvalidCardNumderException("Сумма отрицательна");
         }
         else if (i > 50000){
-            throw new InvalidCardNumderException("Лимит привышен");
+            throw new InvalidCardNumderException("Лимит превышен");
         }
 
     }
